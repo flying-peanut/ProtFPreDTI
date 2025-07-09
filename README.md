@@ -68,3 +68,12 @@ Once the environment is set up, you can use the model for predictions.
    ```sh
 python main.py
    ```
+## Introduction to the document
+
+- Dataset: stores the original data
+- Results: stores the results predicted by the model
+- Saved_models: stores the already trained model, which can be directly used for prediction when the code is reproduced
+- lib: stores the mol2vec model
+- features.py and helpers.py: The code for drug feature extraction using the mol2vec model
+- main.py: A GUI integrated with the model
+- tips: The ProtBERT model can be obtained from huggingface
