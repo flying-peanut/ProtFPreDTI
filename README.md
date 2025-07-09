@@ -66,5 +66,5 @@ Once the environment is set up, you can use the model for predictions.
 **2. Run a prediction:**
 
    ```sh
-python predict.py
+python main.py
    ```
